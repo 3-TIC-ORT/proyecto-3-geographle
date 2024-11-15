@@ -2,7 +2,9 @@ import fs from 'fs';
 import { onEvent, startServer } from "soquetic";
 import path from 'path';
 import { fileURLToPath } from 'url';
-import liveServer from "live-server";
+
+
+
 
 
 // Importaciones desde guess_about/index.js
@@ -92,13 +94,5 @@ onEvent("continuarJuego", continuarJuego);
 onEvent("enviarEstadisticasHyl", saveGameStats)
 onEvent("cargarEstadisticasHyl", cargarEstadisticasHyl)
 
-var params = {
-	port: 80, // Set the server port. Defaults to 8080.
-	host: "0.0.0.0", // Set the address to bind to. Defaults to 0.0.0.0 or process.env.IP.
-	// root: "C:/GitHub/proyecto-3-geographle/Frontend", // Set root directory that's being served. Defaults to cwd.
-	open: false, // When false, it won't load your browser by default.
-	logLevel: 2, // 0 = errors only, 1 = some, 2 = lots
-};
-liveServer.start(params);
 
 startServer();

@@ -249,5 +249,23 @@
     "juego": "Connections",
     "gano": true,
     "vidasRestantes": 4
+  },
+  {
+    "username": "cuenta1",
+    "juego": "Connections",
+    "gano": false,
+    "vidasRestantes": 0
+  },
+  {
+    "username": "cuenta1",
+    "juego": "Connections",
+    "gano": false,
+    "vidasRestantes": 0
+  },
+  {
+    "username": "cuenta1",
+    "juego": "Connections",
+    "gano": false,
+    "vidasRestantes": 0
   }
 ]

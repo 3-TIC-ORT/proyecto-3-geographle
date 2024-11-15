@@ -159,23 +159,6 @@
       ]
   },
   {
-      "country_id": "DNK",
-      "nombre_pais": "Denmark",
-      "words_related": [
-          "Tivoli Gardens",
-          "Legoland",
-          "Little Mermaid",
-          "Nyhavn",
-          "Rosenborg Castle",
-          "Hans Christian Andersen",
-          "Copenhagen",
-          "Smørrebrød",
-          "Viking Ships",
-          "Lego",
-          "Rye Bread"
-      ]
-  },
-  {
       "country_id": "EGY",
       "nombre_pais": "Egypt",
       "words_related": [
@@ -199,10 +182,8 @@
       "words_related": [
           "Eiffel Tower",
           "Louvre Museum",
-          "Château de Chambord",
           "Champagne",
           "Baguettes",
-          "Côte d'Azur",
           "Versailles",
           "Mont Saint-Michel",
           "Croissants",
@@ -224,45 +205,7 @@
           "Sausage",
           "Munich",
           "Cologne Cathedral",
-          "Sauerbraten",
-          "Hamburg Port",
-          "Reichstag"
-      ]
-  },
-  {
-      "country_id": "GRC",
-      "nombre_pais": "Greece",
-      "words_related": [
-          "Acropolis",
-          "Santorini",
-          "Parthenon",
-          "Olympic Games",
-          "Meteora",
-          "Mykonos",
-          "Souvlaki",
-          "Crete",
-          "Athens",
-          "Delphi",
-          "Aegean Sea",
-          "Retsina"
-      ]
-  },
-  {
-      "country_id": "HUN",
-      "nombre_pais": "Hungary",
-      "words_related": [
-          "Budapest",
-          "Thermal Baths",
-          "Goulash",
-          "Danube River",
-          "Buda Castle",
-          "Puszta",
-          "Tokaji Wine",
-          "Heroes' Square",
-          "Fishermen's Bastion",
-          "Hortobágy",
-          "Paprika",
-          "Hungarian Rhapsody"
+          "Hamburg Port"
       ]
   },
   {
@@ -283,24 +226,7 @@
           "Elephants"
       ]
   },
-  {
-      "country_id": "IDN",
-      "nombre_pais": "Indonesia",
-      "words_related": [
-          "Bali",
-          "Borobudur Temple",
-          "Komodo Dragon",
-          "Java",
-          "Rice Paddies",
-          "Sumatra",
-          "Diverse Islands",
-          "Batik",
-          "Gamelan Music",
-          "Mount Rinjani",
-          "Uluwatu Temple",
-          "Yogyakarta"
-      ]
-  },
+
   {
       "country_id": "ISR",
       "nombre_pais": "Israel",
@@ -335,60 +261,6 @@
           "Vatican City",
           "Pompeii",
           "Gelato"
-      ]
-  },
-  {
-      "country_id": "IRL",
-      "nombre_pais": "Ireland",
-      "words_related": [
-          "Dublin",
-          "Shamrocks",
-          "Cliffs of Moher",
-          "Gaelic",
-          "Green Hills",
-          "Leprechauns",
-          "Celtic Music",
-          "Trinity College",
-          "Guinness",
-          "Kilkenny",
-          "Roy Keane",
-          "Dingle Peninsula"
-      ]
-  },
-  {
-      "country_id": "JPN",
-      "nombre_pais": "Japan",
-      "words_related": [
-          "Tokyo",
-          "Kyoto",
-          "Cherry Blossoms",
-          "Sushi",
-          "Sumo",
-          "Mount Fuji",
-          "Geisha",
-          "Samurai",
-          "Shibuya Crossing",
-          "Onsen",
-          "Origami",
-          "Sakura"
-      ]
-  },
-  {
-      "country_id": "KEN",
-      "nombre_pais": "Kenya",
-      "words_related": [
-          "Maasai Mara",
-          "Nairobi",
-          "Mount Kenya",
-          "Safari",
-          "Elephants",
-          "Rift Valley",
-          "Swahili",
-          "Giraffes",
-          "Lamu",
-          "Kenyan Coffee",
-          "Tsavo",
-          "Mombasa"
       ]
   },
   {
@@ -428,24 +300,6 @@
       ]
   },
   {
-      "country_id": "NGA",
-      "nombre_pais": "Nigeria",
-      "words_related": [
-          "Lagos",
-          "Nollywood",
-          "Savannah",
-          "Oil",
-          "Jollof Rice",
-          "Biafra",
-          "African Music",
-          "Benin City",
-          "Kano",
-          "Ibo",
-          "Yoruba",
-          "Hausa"
-      ]
-  },
-  {
       "country_id": "NLD",
       "nombre_pais": "Netherlands",
       "words_related": [
@@ -457,46 +311,7 @@
           "Van Gogh",
           "Cheese",
           "Anne Frank House",
-          "Dikes",
-          "Rotterdam",
-          "Rijksmuseum",
-          "King's Day"
-      ]
-  },
-  {
-      "country_id": "NZL",
-      "nombre_pais": "New Zealand",
-      "words_related": [
-          "Auckland",
-          "Kiwi",
-          "Lord of the Rings",
-          "Maori",
-          "Fiordland",
-          "Hobbits",
-          "Queenstown",
-          "Rotorua",
-          "Wellington",
-          "Tongariro",
-          "Bay of Islands",
-          "Glaciers"
-      ]
-  },
-  {
-      "country_id": "NOR",
-      "nombre_pais": "Norway",
-      "words_related": [
-          "Oslo",
-          "Fjords",
-          "Northern Lights",
-          "Vikings",
-          "Bergen",
-          "Trolltunga",
-          "Sami Culture",
-          "Lofoten Islands",
-          "Geirangerfjord",
-          "Midnight Sun",
-          "Stave Churches",
-          "Skiing"
+          "Rotterdam"
       ]
   },
   {
@@ -518,24 +333,6 @@
       ]
   },
   {
-      "country_id": "POL",
-      "nombre_pais": "Poland",
-      "words_related": [
-          "Warsaw",
-          "Kraków",
-          "Pierogi",
-          "Auschwitz",
-          "Gdansk",
-          "Wawel Castle",
-          "Solidarity",
-          "Tatra Mountains",
-          "Chopin",
-          "Ghetto",
-          "Bialowieza Forest",
-          "Borscht"
-      ]
-  },
-  {
       "country_id": "PRT",
       "nombre_pais": "Portugal",
       "words_related": [
@@ -546,29 +343,10 @@
           "Madeira",
           "Porto",
           "Beaches",
-          "Cork",
           "Pastéis de Nata",
           "Douro Valley",
           "Sintra",
           "Padrão dos Descobrimentos"
-      ]
-  },
-  {
-      "country_id": "ROU",
-      "nombre_pais": "Romania",
-      "words_related": [
-          "Bucharest",
-          "Dracula",
-          "Transylvania",
-          "Carpathian Mountains",
-          "Peles Castle",
-          "Bran Castle",
-          "Sibiu",
-          "Dacians",
-          "Danube River",
-          "Maramureș",
-          "Cărturești Library",
-          "Oradea"
       ]
   },
   {
@@ -578,33 +356,13 @@
           "Moscow",
           "Saint Petersburg",
           "Trans-Siberian Railway",
-          "Red Square",
           "Kremlin",
           "Ballet",
-          "Tsar",
           "Caviar",
           "Volga River",
           "Borscht",
           "Siberia",
           "Bolshoi Theatre"
-      ]
-  },
-  {
-      "country_id": "ZAF",
-      "nombre_pais": "South Africa",
-      "words_related": [
-          "Johannesburg",
-          "Cape Town",
-          "Apartheid",
-          "Table Mountain",
-          "Kruger National Park",
-          "Nelson Mandela",
-          "Gold Mine",
-          "Bantu",
-          "Zulu",
-          "Wine",
-          "Robben Island",
-          "Safari"
       ]
   },
   {
@@ -623,24 +381,6 @@
           "Gaudí",
           "Costa Brava",
           "Granada"
-      ]
-  },
-  {
-      "country_id": "SWE",
-      "nombre_pais": "Sweden",
-      "words_related": [
-          "Stockholm",
-          "Nobel Prize",
-          "IKEA",
-          "Northern Lights",
-          "Abba",
-          "Vikings",
-          "Smorgasbord",
-          "Royal Palace",
-          "Lapland",
-          "Swedish Meatballs",
-          "Uppsala",
-          "Gotland"
       ]
   },
   {
@@ -670,7 +410,6 @@
           "Hagia Sophia",
           "Bosphorus",
           "Turkish Delight",
-          "Pamukkale",
           "Ephesus",
           "Grand Bazaar",
           "Ankara",
@@ -731,24 +470,6 @@
           "Liberty Bell",
           "Hollywood Sign",
           "National Parks"
-      ]
-  },
-  {
-      "country_id": "VNM",
-      "nombre_pais": "Vietnam",
-      "words_related": [
-          "Hanoi",
-          "Ho Chi Minh City",
-          "Halong Bay",
-          "Pho",
-          "Saigon",
-          "Tet Festival",
-          "Cu Chi Tunnels",
-          "Mekong Delta",
-          "War Remnants Museum",
-          "Hạ Long Bay",
-          "Imperial City",
-          "Vietnamese Coffee"
       ]
   }
 ]

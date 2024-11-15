@@ -243,5 +243,11 @@
     "juego": "Connections",
     "gano": true,
     "vidasRestantes": 5
+  },
+  {
+    "username": "cuenta1",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 4
   }
 ]

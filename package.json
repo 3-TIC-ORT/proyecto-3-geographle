@@ -21,6 +21,7 @@
   "dependencies": {
     "chart.js": "^4.4.6",
     "cors": "^2.8.5",
+    "live-server": "^1.2.2",
     "readline-sync": "^1.4.10",
     "soquetic": "^1.1.1"
   }

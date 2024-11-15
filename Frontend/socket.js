@@ -1,4 +1,4 @@
-const socket = io("http://localhost:3000");
+const socket = io("http://165.227.206.169:3000");
 
 const send = (type, data, callback = () => {}) => {
   socket.emit("realTimeEvent", type, data, callback);

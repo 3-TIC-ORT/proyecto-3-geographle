@@ -267,5 +267,16 @@
     "juego": "Connections",
     "gano": false,
     "vidasRestantes": 0
+  },
+  {
+    "juego": "Connections",
+    "gano": false,
+    "vidasRestantes": 0
+  },
+  {
+    "username": "tsweat93",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 3
   }
 ]

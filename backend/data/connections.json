@@ -1,0 +1,475 @@
+[
+  {
+      "country_id": "ARG",
+      "nombre_pais": "Argentina",
+      "words_related": [
+          "Tango",
+          "Mate",
+          "Patagonia",
+          "Gauchos",
+          "Pampas",
+          "Empanadas",
+          "Asado",
+          "Andes",
+          "Buenos Aires",
+          "Malbec",
+          "River Plate",
+          "Maradona"
+      ]
+  },
+  {
+      "country_id": "AUS",
+      "nombre_pais": "Australia",
+      "words_related": [
+          "Outback",
+          "Kangaroo",
+          "Koala",
+          "Great Barrier Reef",
+          "Sydney Opera House",
+          "Ayers Rock",
+          "Bushrangers",
+          "Bondi Beach",
+          "Platypus",
+          "Tasmania",
+          "Uluru",
+          "Dingo"
+      ]
+  },
+  {
+      "country_id": "AUT",
+      "nombre_pais": "Austria",
+      "words_related": [
+          "Vienna",
+          "Alps",
+          "Schnitzel",
+          "Mozart",
+          "Hofburg",
+          "Café Culture",
+          "Viennese Waltz",
+          "Sachertorte",
+          "St. Stephen's Cathedral",
+          "Salzburg",
+          "Tyrol",
+          "Danube"
+      ]
+  },
+  {
+      "country_id": "BEL",
+      "nombre_pais": "Belgium",
+      "words_related": [
+          "Brussels Sprouts",
+          "Manneken Pis",
+          "Fries",
+          "Waffles",
+          "Comic Strips",
+          "Canals",
+          "Atomium",
+          "Flemish",
+          "Liege",
+          "Bruges",
+          "Beer",
+          "Grand Place"
+      ]
+  },
+  {
+      "country_id": "BRA",
+      "nombre_pais": "Brazil",
+      "words_related": [
+          "Carnival",
+          "Amazon Rainforest",
+          "Samba",
+          "Christ the Redeemer",
+          "Favela",
+          "Flamengo",
+          "Copacabana",
+          "Capoeira",
+          "Açaí",
+          "Bossa Nova",
+          "Pelé"
+      ]
+  },
+  {
+      "country_id": "CAN",
+      "nombre_pais": "Canada",
+      "words_related": [
+          "Maple Syrup",
+          "Niagara Falls",
+          "Hockey",
+          "Mounties",
+          "Poutine",
+          "Rockies",
+          "Tim Hortons",
+          "Vancouver",
+          "Quebec",
+          "Igloos"
+      ]
+  },
+  {
+      "country_id": "CHL",
+      "nombre_pais": "Chile",
+      "words_related": [
+          "Atacama Desert",
+          "Easter Island",
+          "Santiago",
+          "Valparaíso",
+          "Pisco",
+          "Andes Mountains",
+          "Patagonia",
+          "Chilean Sea Bass",
+          "Vineyards",
+          "Alexis Sanchez",
+          "Mapuche",
+          "Papel Mache"
+      ]
+  },
+  {
+      "country_id": "CHN",
+      "nombre_pais": "China",
+      "words_related": [
+          "Great Wall",
+          "Terracotta Warriors",
+          "Forbidden City",
+          "Yangtze River",
+          "Panda",
+          "Silk Road",
+          "Beijing Opera",
+          "Dim Sum",
+          "Hong Kong",
+          "Tea Ceremony",
+          "Temple of Heaven",
+          "Bamboo"
+      ]
+  },
+  {
+      "country_id": "COL",
+      "nombre_pais": "Colombia",
+      "words_related": [
+          "Coffee",
+          "Cartagena",
+          "Emeralds",
+          "Andes",
+          "Barranquilla",
+          "Falcao",
+          "Bogotá",
+          "Salsa",
+          "Gold Museum",
+          "Rosales",
+          "Gabriel García Márquez",
+          "El Dorado"
+      ]
+  },
+  {
+      "country_id": "EGY",
+      "nombre_pais": "Egypt",
+      "words_related": [
+          "Pyramids of Giza",
+          "Sphinx",
+          "Nile River",
+          "Hieroglyphs",
+          "Luxor Temple",
+          "Valley of the Kings",
+          "Cairo",
+          "Papyrus",
+          "Mummies",
+          "Aswan High Dam",
+          "King Tutankhamun",
+          "Alexandria"
+      ]
+  },
+  {
+      "country_id": "FRA",
+      "nombre_pais": "France",
+      "words_related": [
+          "Eiffel Tower",
+          "Louvre Museum",
+          "Champagne",
+          "Baguettes",
+          "Versailles",
+          "Mont Saint-Michel",
+          "Croissants",
+          "Provence",
+          "Bordeaux",
+          "Normandy"
+      ]
+  },
+  {
+      "country_id": "DEU",
+      "nombre_pais": "Germany",
+      "words_related": [
+          "Brandenburg Gate",
+          "Oktoberfest",
+          "Bavarian Beer",
+          "Neuschwanstein Castle",
+          "Berlin Wall",
+          "Black Forest",
+          "Sausage",
+          "Munich",
+          "Cologne Cathedral",
+          "Hamburg Port"
+      ]
+  },
+  {
+      "country_id": "IND",
+      "nombre_pais": "India",
+      "words_related": [
+          "Taj Mahal",
+          "Bollywood",
+          "Ganges River",
+          "Yoga",
+          "Spices",
+          "Rajasthan",
+          "Holi Festival",
+          "Diwali",
+          "Tikka Masala",
+          "Mysore Palace",
+          "Curry",
+          "Elephants"
+      ]
+  },
+
+  {
+      "country_id": "ISR",
+      "nombre_pais": "Israel",
+      "words_related": [
+          "Jerusalem",
+          "Dead Sea",
+          "Tel Aviv",
+          "Masada",
+          "Western Wall",
+          "Nazareth",
+          "Negev Desert",
+          "Galilee",
+          "Haifa",
+          "Mediterranean Coast",
+          "Dome of the Rock",
+          "Matza"
+      ]
+  },
+  {
+      "country_id": "ITA",
+      "nombre_pais": "Italy",
+      "words_related": [
+          "Rome",
+          "Venice",
+          "Florence",
+          "Colosseum",
+          "Pizza",
+          "Leaning Tower",
+          "Renaissance Art",
+          "Milan",
+          "Tuscan Countryside",
+          "Vatican City",
+          "Pompeii",
+          "Gelato"
+      ]
+  },
+  {
+      "country_id": "KOR",
+      "nombre_pais": "South Korea",
+      "words_related": [
+          "Seoul",
+          "K-Pop",
+          "Kimchi",
+          "Gyeongbokgung Palace",
+          "Hanbok",
+          "DMZ",
+          "Jjajangmyeon",
+          "Jeju Island",
+          "Hallyu",
+          "BTS",
+          "Taekwondo",
+          "Korean Wave"
+      ]
+  },
+  {
+      "country_id": "MEX",
+      "nombre_pais": "Mexico",
+      "words_related": [
+          "Tacos",
+          "Chichen Itza",
+          "Mariachi",
+          "Tequila",
+          "Mexico City",
+          "Cancún",
+          "Aztec",
+          "Maya",
+          "Salsa",
+          "Guacamole",
+          "Day of the Dead",
+          "Sombrero"
+      ]
+  },
+  {
+      "country_id": "NLD",
+      "nombre_pais": "Netherlands",
+      "words_related": [
+          "Amsterdam",
+          "Tulips",
+          "Windmills",
+          "Canals",
+          "Cycling",
+          "Van Gogh",
+          "Cheese",
+          "Anne Frank House",
+          "Rotterdam"
+      ]
+  },
+  {
+      "country_id": "PER",
+      "nombre_pais": "Peru",
+      "words_related": [
+          "Machu Picchu",
+          "Lima",
+          "Inca Empire",
+          "Ceviche",
+          "Nazca Lines",
+          "Cusco",
+          "Andes Mountains",
+          "Lake Titicaca",
+          "Machu Picchu",
+          "Pisco Sour",
+          "Sacsayhuamán",
+          "Huacachina"
+      ]
+  },
+  {
+      "country_id": "PRT",
+      "nombre_pais": "Portugal",
+      "words_related": [
+          "Lisbon",
+          "Port Wine",
+          "Fado",
+          "Azores",
+          "Madeira",
+          "Porto",
+          "Beaches",
+          "Pastéis de Nata",
+          "Douro Valley",
+          "Sintra",
+          "Padrão dos Descobrimentos"
+      ]
+  },
+  {
+      "country_id": "RUS",
+      "nombre_pais": "Russia",
+      "words_related": [
+          "Moscow",
+          "Saint Petersburg",
+          "Trans-Siberian Railway",
+          "Kremlin",
+          "Ballet",
+          "Caviar",
+          "Volga River",
+          "Borscht",
+          "Siberia",
+          "Bolshoi Theatre"
+      ]
+  },
+  {
+      "country_id": "ESP",
+      "nombre_pais": "Spain",
+      "words_related": [
+          "Madrid",
+          "Barcelona",
+          "Flamenco",
+          "Paella",
+          "Sagrada Familia",
+          "Siesta",
+          "Tapas",
+          "Alhambra",
+          "Picasso",
+          "Gaudí",
+          "Costa Brava",
+          "Granada"
+      ]
+  },
+  {
+      "country_id": "CHE",
+      "nombre_pais": "Switzerland",
+      "words_related": [
+          "Geneva",
+          "Zurich",
+          "Alps",
+          "Chocolate",
+          "Cheese",
+          "Neutrality",
+          "Matterhorn",
+          "Swiss Watches",
+          "Bern",
+          "Lake Geneva",
+          "Lucerne",
+          "Swiss Army Knife"
+      ]
+  },
+  {
+      "country_id": "TUR",
+      "nombre_pais": "Turkey",
+      "words_related": [
+          "Istanbul",
+          "Cappadocia",
+          "Hagia Sophia",
+          "Bosphorus",
+          "Turkish Delight",
+          "Ephesus",
+          "Grand Bazaar",
+          "Ankara",
+          "Blue Mosque",
+          "Mediterranean Coast",
+          "Topkapi Palace"
+      ]
+  },
+  {
+      "country_id": "UKR",
+      "nombre_pais": "Ukraine",
+      "words_related": [
+          "Kyiv",
+          "Chernobyl",
+          "Carpathians",
+          "Black Sea",
+          "Lviv",
+          "Borscht",
+          "Holodomor",
+          "Kiev Pechersk Lavra",
+          "Odessa",
+          "Dnipro",
+          "Ukrainian Folk Music",
+          "Cossacks"
+      ]
+  },
+  {
+      "country_id": "GBR",
+      "nombre_pais": "United Kingdom",
+      "words_related": [
+          "London",
+          "Big Ben",
+          "Buckingham Palace",
+          "Scottish Highlands",
+          "Wales",
+          "Stonehenge",
+          "Tea",
+          "Sherlock Holmes",
+          "Manchester",
+          "Liverpool",
+          "Westminster",
+          "Queen Elizabeth"
+      ]
+  },
+  {
+      "country_id": "USA",
+      "nombre_pais": "United States",
+      "words_related": [
+          "New York",
+          "Los Angeles",
+          "Statue of Liberty",
+          "Hollywood",
+          "Grand Canyon",
+          "Route 66",
+          "Washington, D.C.",
+          "Yellowstone",
+          "Silicon Valley",
+          "Liberty Bell",
+          "Hollywood Sign",
+          "National Parks"
+      ]
+  }
+]

@@ -106,7 +106,7 @@ function handleShapeSelection(selectedShape) {
     });
 }
 
-// Country verification game functions
+
 function verifySelection() {
     const selectedCountry = document.querySelector('select').value;
 
@@ -123,7 +123,7 @@ function verifySelection() {
     });
 }
 
-// Flag loading function
+
 function loadFlag() {
     fetchData("obtenerFlag", (data) => {
         if (data && data.flag) {
@@ -151,19 +151,26 @@ function loadFlag() {
 }
 
 function handleLives(response) {
-    displayMessage(`Incorrect. you have ${response.vidas} lives left.`, 'red');
+    displayMessage(`Incorrect. You have ${response.vidas} lives left.`, 'red');
+    
     if (response.vidas > 0) {
-        // Continúa el juego si tiene vidas restantes
     } else {
         displayMessage(`Game Over. ${response.mensaje}`, 'red');
         
-        // Redirige al menú y luego envía las estadísticas al perder el juego
+
         setTimeout(() => {
+
+            response.vidas = 5; 
+            
+
             window.location.href = '/Frontend/Menu/';
+            
+           
             enviarEstadisticas(false);
-        }, 2000); // Espera para mostrar el mensaje de "Game Over"
+        }, 2000); 
     }
 }
+
 
 
 

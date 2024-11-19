@@ -11,8 +11,8 @@ let currentTopic = null;
 async function loadData() {
     if (!top10Data) {
         const dataPath = join(__dirname, '../data/Top_10.json');
-        const rawData = await fs.readFile(dataPath, 'utf-8');
-        top10Data = JSON.parse(rawData);
+        const DataSola = await fs.readFile(dataPath, 'utf-8');
+        top10Data = JSON.parse(DataSola);
     }
     return top10Data;
 }
@@ -24,23 +24,25 @@ export async function consignaAleatoriaTop10() {
     return currentTopic;
 }
 
-export async function verifyAnswerTop10(userAnswer) {
+export async function verificarResTop10(resUsuario) {
     if (!currentTopic) {
-        throw new Error('No topic selected. Call consignaAleatoriaTop10 first.');
+        return false;
     }
-
+    
     const data = await loadData();
     const topicData = data.top10.find(item => item.topic === currentTopic);
 
-    if (!topicData) {
-        return false;
-    }
-
-    const normalizedUserAnswer = userAnswer.toLowerCase().trim();
+    const RespuestaDelUsuario = resUsuario.toLowerCase().trim();
     return topicData.items.some(
-        item => item.name.toLowerCase() === normalizedUserAnswer
+        item => item.name.toLowerCase() === RespuestaDelUsuario
     );
 }
+
+
+
+
+
+
 
 export async function guardarEstadisticasTop10(estadisticas) {
     console.log("Estadísticas recibidas:", estadisticas);

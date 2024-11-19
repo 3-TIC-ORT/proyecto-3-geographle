@@ -55,29 +55,3 @@ function infodown() {
         menu.classList.add("edinf")
     }
 }
-const translations = {
-    en: {
-      settings: "SETTINGS",
-      dark: "DARK THEME",
-      lang: "SELECT LANGUAGE",
-      numdia: "GEOGRAPHLE #1",
-      version: "V. 1.00"
-    },
-    es: {
-      settings: "CONFIGURACIÓN",
-      dark: "MODO OSCURO",
-      lang: "SELECCIONAR IDIOMA",
-      numdia: "GEOGRAPHLE #1",
-      version: "V. 1.00"
-    }
-  };
-  
-  function changeLanguage() {
-    const lang = document.getElementById("language-selector").value;
-    document.querySelector(".sett").textContent = translations[lang].settings;
-    document.querySelector(".dark").textContent = translations[lang].dark;
-    document.querySelector(".lang").textContent = translations[lang].lang;
-    document.querySelector(".numdia").textContent = translations[lang].numdia;
-    document.querySelector(".version").textContent = translations[lang].version;
-  }
-  

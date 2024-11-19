@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// Language selection functions
+
 function mostrarOpcionesIdioma() {
     fetchData("obtenerOpcionesIdioma", function(respuesta) {
         if (!respuesta || !Array.isArray(respuesta.language_options)) {
@@ -278,11 +278,11 @@ function loadCapitalOptions() {
     });
 }
 
-// Función para enviar las estadísticas al backend
+
 function enviarEstadisticas(gano) {
     const user = localStorage.getItem("username");
 
-    if (user) {  // Cambiado de !== undefined a simplemente if(user)
+    if (user) { 
         const estadisticas = {
             username: user,
             juego: "Guess_about",
@@ -304,7 +304,7 @@ function enviarEstadisticas(gano) {
         });
     }
 }
-// Lógica de verificación si el usuario gana la última ronda de capital
+
 function handleCapitalSelection(selectedCapital) {
     cuales.forEach(cuale => {
         cuale.classList.remove('selected');
@@ -320,7 +320,7 @@ function handleCapitalSelection(selectedCapital) {
         if (response.esCorrecta) {
             displayMessage("¡Your guess for capital is correct!", 'green');
             setTimeout(() => {
-                enviarEstadisticas(true); // Envía estadísticas si gana
+                enviarEstadisticas(true);
                 window.location.href = '/Frontend/Menu/';
             }, 1500);
         } else {
@@ -328,7 +328,7 @@ function handleCapitalSelection(selectedCapital) {
         }
     });
 }
-// Event listeners for loading options on DOM content loaded
+
 document.addEventListener('DOMContentLoaded', () => {
     mostrarOpcionesIdioma();
     loadCapitalOptions();

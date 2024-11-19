@@ -65,5 +65,4 @@ export function checkUserSession(data) {
     : { success: false, message: 'Sesión inválida' };
 }
 
-// Cargar usuarios al iniciar
 loadUsers();

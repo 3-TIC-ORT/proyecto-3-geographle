@@ -1,7 +1,7 @@
 import { fileURLToPath } from 'url';
 import path from 'path';
 import fs from 'fs';
-import { log } from 'console';
+
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -26,9 +26,8 @@ export function generarOpciones(prop) {
   }
 
   let opciones = new Set();
-  opciones.add(paisActual[prop]);  // Aseguramos que la opción correcta esté incluida
+  opciones.add(paisActual[prop]);  
 
-  // Generar opciones de otros países
   while (opciones.size < 4) {
     const paisAleatorio = datos.countries[Math.floor(Math.random() * datos.countries.length)];
     if (paisAleatorio[prop] !== paisActual[prop]) {
@@ -43,7 +42,7 @@ export function generarOpciones(prop) {
 export function verificarRespuesta(prop, respuesta) {
   if (typeof respuesta !== 'string') {
     console.error(`Error: respuesta no es una cadena. Recibido:`, respuesta);
-    return false; // O maneja el error de otra manera según lo que necesites
+    return false;
   }
 
   const esCorrecta = paisActual[prop].toLowerCase() === respuesta.toLowerCase();
@@ -138,17 +137,16 @@ export function verificarRespuestaGeneral(prop, respuesta, tipoRonda) {
 export function guardarEstadisticasGuessAbout(estadisticas) {
   const filePathEstadisticas = path.join(__dirname, '../data/estadisticasGuessAbout.json');
 
-  // Leer el contenido actual del archivo
   let contenidoActual = [];
   if (fs.existsSync(filePathEstadisticas)) {
       const contenidoJSON = fs.readFileSync(filePathEstadisticas, 'utf8');
       contenidoActual = JSON.parse(contenidoJSON);
   }
 
-  // Agregar las nuevas estadísticas
+
   contenidoActual.push(estadisticas);
 
-  // Guardar el contenido actualizado en el archivo
+
   fs.writeFileSync(filePathEstadisticas, JSON.stringify(contenidoActual, null, 2), 'utf8');
   console.log("Estadísticas guardadas correctamente:", estadisticas);
 }

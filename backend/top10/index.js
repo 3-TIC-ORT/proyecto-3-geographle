@@ -68,11 +68,11 @@ export async function cargarEstadisticasTop10(user) {
     let labels = [];
     let paisesAcertados = [];
     
-    // Agregar etiquetas y datos para el gráfico
+    
     for (const stat of stats) {
         if (stat.username === user) {
-            labels.push(stat.juego); // Etiquetas para el gráfico (ejemplo: nombre del juego o fecha)
-            paisesAcertados.push(stat.paisesAcertados); // Datos de aciertos
+            labels.push(stat.juego); 
+            paisesAcertados.push(stat.paisesAcertados); 
         }
     }
 

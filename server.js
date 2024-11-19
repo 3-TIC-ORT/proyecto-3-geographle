@@ -32,7 +32,7 @@ import {
 
 // Importaciones desde Top10/index.js
 import { 
-    verifyAnswerTop10,
+    verificarResTop10,
     consignaAleatoriaTop10,
     guardarEstadisticasTop10,
     cargarEstadisticasTop10
@@ -43,8 +43,8 @@ onEvent("consignaAleatoria", async () => {
     return await consignaAleatoriaTop10();
 });
 
-onEvent("verificarSeleccionTop10", async (userAnswer) => {
-    return await verifyAnswerTop10(userAnswer);
+onEvent("verificarSeleccionTop10", async (resUsuario) => {
+    return await verificarResTop10(resUsuario);
 });
 onEvent("guardarEstadisticasTop10", guardarEstadisticasTop10)
 onEvent("cargarEstadisticasTop10", cargarEstadisticasTop10)

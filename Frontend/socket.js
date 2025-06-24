@@ -1,21 +1,17 @@
-const socket = io("http://165.227.206.169:3000");
+const socket = io('http://localhost:3000');
 
-
-const send = (type, data, callback = () => {}) => {
-  socket.emit("realTimeEvent", type, data, callback);
-};
-
-const receive = (type, callback) => {
-  socket.on("realTimeEvent", (receivedType, data) => {
-    if (receivedType === type) return callback(data);
+// Enviar eventos
+function postData(evento, data, callback) {
+  socket.emit(evento, data);
+  socket.once(evento, (respuesta) => {
+    callback(respuesta);
   });
-};
+}
 
-const fetchData = (type, callback) => {
-  socket.emit("GETEvent", type, callback);
-};
-
-const postData = (type, data, callback = () => {}) => {
-  socket.emit("POSTEvent", type, data, callback);
-};
-
+// Recibir datos sin enviar nada
+function fetchData(evento, callback) {
+  socket.emit(evento);
+  socket.once(evento, (respuesta) => {
+    callback(respuesta);
+  });
+}

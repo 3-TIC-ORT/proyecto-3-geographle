@@ -23,7 +23,7 @@ header{
     width: 100%;
     align-items: center;
     border-bottom: 4px solid #000;
-    height: 10vh;
+    height: 19.5vh;
 }
 
 .menudropdown {
@@ -55,7 +55,8 @@ header{
     font-family: "Inter" , sans-serif;
     display: flex;
     align-items: center;
-    font-size: 35px;
+    font-size: 25px;
+    font-weight: 600;
     justify-content: space-around;
     color: #000;
 }

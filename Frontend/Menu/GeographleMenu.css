@@ -82,8 +82,8 @@ header{
 
 .estasdown {
     display: flex;
-    width: 100vh;
-    height: 80%;
+    width: 80vh;
+    height: 60%;
     background-color: #F3EFEF;
     overflow: hidden;
     border-radius: 10%;
@@ -386,13 +386,14 @@ font-style: italic;
     justify-content: space-between;
     width: 100%;
     flex-direction: column;
+    gap: 50px;
 }
 
 .dos{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 40px;
     margin-left: 30%;
 }
 
@@ -527,8 +528,11 @@ a{
 }
 
 .im{
-    width: 500px;
-    height: 300px;
+    width: 750px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 body.light-mode {

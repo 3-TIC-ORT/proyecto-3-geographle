@@ -7,7 +7,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 635px;
+    height: 1070px;
     width: 50%;
     background-color: #272DA3;
     border-top-right-radius: 100px;
@@ -19,7 +19,7 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 635px;
+    height: 1070px;
     width: 50%;
     gap: 40px;
 }
@@ -135,13 +135,13 @@ h4{
 }
 
 .flecha{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
 }
 
 .back{
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .back:hover{

@@ -426,14 +426,15 @@ a{
 .sixi{
     display:flex;
     justify-content: center;
-    margin: 40px;
-    gap: 8px;
+    margin: 100px;
+    gap: 28px;
 }
 
 .six {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 28px;
+    width: 200px;
 }
 
 .redondo{

@@ -17,6 +17,7 @@ body{
 section{
     font-family: "Inter" , sans-serif;
     font-weight: 550;
+    margin: 50px;
 }
 
 .menudropdown {

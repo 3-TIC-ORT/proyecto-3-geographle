@@ -348,17 +348,29 @@ font-style: italic;
     height: 80%;
 }
 
+section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px;
+    gap: 10px;
+    margin-left: 1px;
+}
+
 .tit{
     color: #4F4F4F;
-    font-size: 50px;
+    font-size: 70px;
     font-style: italic;
     font-weight: 600;
+    line-height: normal;
     display: flex;
     justify-content: center;
 }
 
 .round1{
-    font-size: 35px;
+    font-size: 55px;
     display: flex;
     justify-content: center;
     font-weight: 600;
@@ -367,12 +379,14 @@ font-style: italic;
 }
 
 .guess{
-    display: flex;
-    justify-content: center;
-    font-size: 22px;
-    font-weight: 550;
+    font-size: 40px;
+    font-weight: 500;
 }
 
+.contrys{
+    font-size: 40px;
+    font-weight: 500;
+}
 .cuadis {
     display: flex;
     align-items: center;

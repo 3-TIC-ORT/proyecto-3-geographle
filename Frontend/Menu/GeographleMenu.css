@@ -288,7 +288,7 @@ header{
 
 .user{
     width: 4.5vw;
-    height: 8vh;
+    height: 9vh;
 }
 
 .Imgmenu {
@@ -415,6 +415,7 @@ font-style: italic;
 
 .desc{
     font-weight: 700;
+    font-size: 21px;
 }
 
 .caja1{
@@ -692,7 +693,7 @@ input:checked + .slider:before {
     background: #fff;
   }
   .username {
-    font-size: 26px;  
+    font-size: 40px;  
     font-weight: bold; 
     color: #333;
     font-family: sans-serif;

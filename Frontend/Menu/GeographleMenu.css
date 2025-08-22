@@ -287,13 +287,13 @@ header{
 }
 
 .user{
-    width: 2.5vw;
-    height: 5vh;
+    width: 4.5vw;
+    height: 8vh;
 }
 
 .Imgmenu {
-    width: 2.5vw;
-    height: 5vh;
+    width: 4.5vw;
+    height: 9vh;
     cursor: pointer;
 }
 
@@ -314,14 +314,14 @@ font-style: italic;
 .juntitos{
     display: flex;
     text-decoration: none;
-    font-size: 1.7rem;
+    font-size: 3rem;
 }
 
 .iconos{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 12vw;
+    width: 20vw;
     height: 100%;
     padding-right: 1vw;
 }
@@ -339,20 +339,20 @@ font-style: italic;
 }
 
 .info {
-    width: 3vw;
-    height: 6.5vh;
+    width: 4.5vw;
+    height: 9.vh;
     cursor: pointer;
 }
 
 .stats {
-    width: 3.5vw;
-    height: 7.2vh;
+    width: 5.5vw;
+    height: 10.2vh;
     cursor: pointer;
 }
 
 .options {
-    width: 3.5vw;
-    height: 7.2vh;
+    width: 5.5vw;
+    height: 10.2vh;
     cursor: pointer;
 }
 

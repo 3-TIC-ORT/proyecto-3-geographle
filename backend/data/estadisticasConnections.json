@@ -255,5 +255,34 @@
     "juego": "Connections",
     "gano": true,
     "vidasRestantes": 4
+  },
+  {
+    "username": "fedevitacca",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 5
+  },
+  {
+    "username": "fedevitacca",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 5
+  },
+  {
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 3
+  },
+  {
+    "username": "kupicito123",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 4
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 4
   }
 ]

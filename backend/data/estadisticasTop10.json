@@ -154,5 +154,11 @@
     "juego": "Top10",
     "completado": false,
     "paisesAcertados": 8
+  },
+  {
+    "username": "fedevitacca",
+    "juego": "Top10",
+    "completado": false,
+    "paisesAcertados": 1
   }
 ]

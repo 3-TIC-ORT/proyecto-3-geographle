@@ -249,5 +249,11 @@
     "juego": "Connections",
     "gano": true,
     "vidasRestantes": 4
+  },
+  {
+    "username": "fedevitacca",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 4
   }
 ]

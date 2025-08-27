@@ -21,7 +21,7 @@ export async function consignaAleatoriaTop10() {
     const data = await loadData();
     const randomTopicIndex = Math.floor(Math.random() * data.top10.length);
     currentTopic = data.top10[randomTopicIndex].topic;
-    return currentTopic;
+    return currentTopic;cq
 }
 
 export async function verifyAnswerTop10(userAnswer) {

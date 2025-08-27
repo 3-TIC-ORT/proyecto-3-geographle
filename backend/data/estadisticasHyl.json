@@ -1,929 +1,194 @@
 [
   {
-    "username": "kupicito123",
+    "username": "TICEXP",
     "consecutiveCorrect": 4,
-    "juego": "Hyl"
-  },
-  {
-    "username": "juan1234",
-    "consecutiveCorrect": 6,
-    "juego": "Hyl"
-  },
-  {
-    "username": "juan1234",
-    "consecutiveCorrect": 12,
-    "juego": "Hyl"
-  },
-  {
-    "username": "kupicito123",
-    "consecutiveCorrect": 2,
-    "juego": "Hyl"
-  },
-  {
-    "username": "kupicito123",
-    "consecutiveCorrect": 1,
-    "juego": "Hyl"
-  },
-  {
-    "username": "kupicito123",
-    "consecutiveCorrect": 1,
-    "juego": "Hyl"
-  },
-  {
-    "username": "kupicito123",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl"
-  },
-  {
-    "username": "kupicito123",
-    "consecutiveCorrect": 8,
-    "juego": "Hyl"
-  },
-  {
-    "username": "kupicito123",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl"
-  },
-  {
-    "username": "pepegon",
-    "consecutiveCorrect": 10,
     "juego": "Hyl",
-    "date": "13/11"
-  },
-  {
-    "username": "pepegon",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "13/11"
-  },
-  {
-    "username": "pepegon18",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "13/11"
-  },
-  {
-    "username": "pepegon18",
-    "consecutiveCorrect": 1,
-    "juego": "Hyl",
-    "date": "13/11"
-  },
-  {
-    "username": "pepegon18",
-    "consecutiveCorrect": 6,
-    "juego": "Hyl",
-    "date": "13/11"
-  },
-  {
-    "username": "pepegon18",
-    "consecutiveCorrect": 19,
-    "juego": "Hyl",
-    "date": "13/11"
-  },
-  {
-    "username": "kupicito123",
-    "consecutiveCorrect": 5,
-    "juego": "Hyl",
-    "date": "14/11"
-  },
-  {
-    "username": "kupicito123",
-    "consecutiveCorrect": 2,
-    "juego": "Hyl",
-    "date": "14/11"
-  },
-  {
-    "username": "kupicito123",
-    "consecutiveCorrect": 3,
-    "juego": "Hyl",
-    "date": "14/11"
-  },
-  {
-    "username": "cuenta1",
-    "consecutiveCorrect": 7,
-    "juego": "Hyl",
-    "date": "14/11"
-  },
-  {
-    "username": "cuenta1",
-    "consecutiveCorrect": 1,
-    "juego": "Hyl",
-    "date": "14/11"
-  },
-  {
-    "username": "cuenta1",
-    "consecutiveCorrect": 8,
-    "juego": "Hyl",
-    "date": "14/11"
-  },
-  {
-    "username": "cuenta1",
-    "consecutiveCorrect": 2,
-    "juego": "Hyl",
-    "date": "14/11"
-  },
-  {
-    "username": "cuenta1",
-    "consecutiveCorrect": 1,
-    "juego": "Hyl",
-    "date": "15/11"
-  },
-  {
-    "username": "cuenta1",
-    "consecutiveCorrect": 2,
-    "juego": "Hyl",
-    "date": "15/11"
-  },
-  {
-    "username": "cuenta1",
-    "consecutiveCorrect": 3,
-    "juego": "Hyl",
-    "date": "15/11"
-  },
-  {
-    "username": "cuenta1",
-    "consecutiveCorrect": 5,
-    "juego": "Hyl",
-    "date": "15/11"
-  },
-  {
-    "username": "cuenta1",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "15/11"
-  },
-  {
-    "username": "cuenta1",
-    "consecutiveCorrect": 2,
-    "juego": "Hyl",
-    "date": "15/11"
-  },
-  {
-    "username": "cuenta1",
-    "consecutiveCorrect": 3,
-    "juego": "Hyl",
-    "date": "15/11"
-  },
-  {
-    "username": "kupicito123",
-    "consecutiveCorrect": 1,
-    "juego": "Hyl",
-    "date": "22/08"
-  },
-  {
-    "username": "kupicito123",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "22/08"
-  },
-  {
-    "username": "kupicito123",
-    "consecutiveCorrect": 1,
-    "juego": "Hyl",
-    "date": "22/08"
-  },
-  {
-    "username": "fedevitacca",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "fedevitacca",
-    "consecutiveCorrect": 5,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "fedevitacca",
-    "consecutiveCorrect": 2,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "fedevitacca",
-    "consecutiveCorrect": 7,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "fedevitacca",
-    "consecutiveCorrect": 6,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "fedevitacca",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "fedevitacca",
-    "consecutiveCorrect": 3,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "kupicito123",
-    "consecutiveCorrect": 23,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 2,
-    "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
   },
   {
     "username": "TICEXP",
     "consecutiveCorrect": 0,
     "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 17,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 3,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 7,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 3,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 6,
-    "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
   },
   {
     "username": "TICEXP",
     "consecutiveCorrect": 9,
     "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
+  },
+  {
+    "username": "TICEXP",
+    "consecutiveCorrect": 16,
+    "juego": "Hyl",
+    "date": "26/08"
   },
   {
     "username": "TICEXP",
     "consecutiveCorrect": 0,
     "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 7,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 5,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 14,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 14,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 3,
-    "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
   },
   {
     "username": "TICEXP",
     "consecutiveCorrect": 4,
     "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
+  },
+  {
+    "username": "TICEXP",
+    "consecutiveCorrect": 6,
+    "juego": "Hyl",
+    "date": "26/08"
   },
   {
     "username": "TICEXP",
     "consecutiveCorrect": 0,
     "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
   },
   {
     "username": "TICEXP",
-    "consecutiveCorrect": 2,
+    "consecutiveCorrect": 6,
     "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
+  },
+  {
+    "username": "TICEXP",
+    "consecutiveCorrect": 18,
+    "juego": "Hyl",
+    "date": "26/08"
+  },
+  {
+    "username": "TICEXP",
+    "consecutiveCorrect": 0,
+    "juego": "Hyl",
+    "date": "26/08"
   },
   {
     "username": "TICEXP",
     "consecutiveCorrect": 1,
     "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 2,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 7,
-    "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
   },
   {
     "username": "TICEXP",
     "consecutiveCorrect": 0,
     "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 7,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 1,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 1,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 1,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 5,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 15,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 12,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 37,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 12,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 3,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 8,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 3,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 3,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 3,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 7,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 3,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 4,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 1,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
   },
   {
     "username": "TICEXP",
     "consecutiveCorrect": 10,
     "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
   },
   {
     "username": "TICEXP",
-    "consecutiveCorrect": 1,
+    "consecutiveCorrect": 44,
     "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 5,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 5,
-    "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
   },
   {
     "username": "TICEXP",
     "consecutiveCorrect": 11,
     "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
+  },
+  {
+    "username": "TICEXP",
+    "consecutiveCorrect": 7,
+    "juego": "Hyl",
+    "date": "26/08"
+  },
+  {
+    "username": "TICEXP",
+    "consecutiveCorrect": 2,
+    "juego": "Hyl",
+    "date": "26/08"
+  },
+  {
+    "username": "TICEXP",
+    "consecutiveCorrect": 2,
+    "juego": "Hyl",
+    "date": "26/08"
+  },
+  {
+    "username": "TICEXP",
+    "consecutiveCorrect": 4,
+    "juego": "Hyl",
+    "date": "26/08"
+  },
+  {
+    "username": "TICEXP",
+    "consecutiveCorrect": 0,
+    "juego": "Hyl",
+    "date": "26/08"
   },
   {
     "username": "TICEXP",
     "consecutiveCorrect": 6,
     "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 7,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 4,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 2,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 9,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 3,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 4,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
   },
   {
     "username": "TICEXP",
     "consecutiveCorrect": 1,
     "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
   },
   {
     "username": "TICEXP",
-    "consecutiveCorrect": 1,
+    "consecutiveCorrect": 11,
     "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
   },
   {
     "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 2,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 7,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 8,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 1,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 2,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 2,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 1,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
     "consecutiveCorrect": 5,
     "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
   },
   {
-    "username": "carla",
+    "username": "TICEXP",
     "consecutiveCorrect": 0,
     "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
   },
   {
-    "username": "carla",
-    "consecutiveCorrect": 2,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 1,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 9,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
+    "username": "TICEXP",
     "consecutiveCorrect": 0,
     "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
   },
   {
-    "username": "carla",
-    "consecutiveCorrect": 1,
+    "username": "TICEXP",
+    "consecutiveCorrect": 0,
     "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
   },
   {
-    "username": "carla",
-    "consecutiveCorrect": 2,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
+    "username": "TICEXP",
     "consecutiveCorrect": 6,
     "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
   },
   {
-    "username": "carla",
+    "username": "TICEXP",
+    "consecutiveCorrect": 3,
+    "juego": "Hyl",
+    "date": "26/08"
+  },
+  {
+    "username": "TICEXP",
     "consecutiveCorrect": 1,
     "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 3,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 4,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 4,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 3,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 13,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 4,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 2,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 2,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "carla",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 0,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 3,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 9,
-    "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 39,
-    "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
   },
   {
     "username": "TICEXP",
     "consecutiveCorrect": 2,
     "juego": "Hyl",
-    "date": "25/08"
-  },
-  {
-    "username": "TICEXP",
-    "consecutiveCorrect": 2,
-    "juego": "Hyl",
-    "date": "25/08"
+    "date": "26/08"
   }
 ]

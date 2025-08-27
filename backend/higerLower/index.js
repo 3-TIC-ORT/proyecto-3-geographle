@@ -40,6 +40,9 @@ export function iniciarRonda() {
     }
 
     // Enviar datos iniciales al frontend
+    if (country1 == country2){
+        let country2 = obtenerPaisAleatorio()
+    }
     return { country1, country2, consigna };
 }
 

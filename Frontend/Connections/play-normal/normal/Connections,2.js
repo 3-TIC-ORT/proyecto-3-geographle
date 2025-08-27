@@ -2,109 +2,127 @@
 let objeto4Palabras = [];
 let postDataVerificarData = [];
 let vidas = 5;
-let responseReceived = false; // Estado para controlar la respuesta
-
-// Array para almacenar las palabras correctas
+let responseReceived = false; 
 let palabrasCorrectas = [];
 
 // Función para mezclar un array de forma aleatoria
 function mezclarArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1)); // Índice aleatorio
-        [array[i], array[j]] = [array[j], array[i]]; // Intercambiar elementos
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
 }
 
+// Función para mostrar el modal de resultado
+function mostrarResultado(win) {
+    let modal = document.getElementById("resultadoModal");
+    let texto = document.getElementById("resultadoTexto");
+    texto.textContent = win ? "You Win!" : "You Lost!";
+
+    // Mostrar modal sin animación de salida
+    modal.style.display = "flex";
+    modal.style.opacity = 1;
+
+    // Ocultar después de 10 segundos
+    setTimeout(() => {
+        modal.style.display = "none";
+    }, 10000); // ahora dura 10 segundos
+
+    // Permitir cerrar al clic
+    modal.addEventListener("click", () => {
+        modal.style.display = "none";
+    });
+}
+
+
 // Esperar a que el DOM se cargue completamente
 document.addEventListener("DOMContentLoaded", function() {
-    // Obtener las palabras aleatorias y mostrarlas en el DOM
     fetchData("caracteristicasAleatorias", callback => {
-        let data = callback;
+        let data = mezclarArray(callback);
 
-        // Mezclar las palabras aleatorias
-        data = mezclarArray(data);
-
-        // Asignar palabras a los elementos con ID 'sixt_0', 'sixt_1', etc.
         data.forEach((palabra, index) => {
             let box = document.getElementById("sixt_" + index);
             box.innerHTML = palabra.word;
-            palabrasCorrectas.push(palabra.word); 
+            palabrasCorrectas.push(palabra.word);
 
-            // Añadir evento de clic a cada caja de palabras
             box.addEventListener("click", function() {
                 if (objeto4Palabras.includes(box.innerHTML)) {
-                    // Si la palabra ya está seleccionada, desseleccionarla
-                    box.style.backgroundColor = ''; // Volver al color original
-                    box.style.pointerEvents = 'auto'; // Habilitar el clic
-                    objeto4Palabras = objeto4Palabras.filter(palabra => palabra !== box.innerHTML); // Remover la palabra del array
+                    // Deseleccionar
+                    box.style.backgroundColor = '';
+                    box.style.border = '';
+                    objeto4Palabras = objeto4Palabras.filter(p => p !== box.innerHTML);
 
                 } else if (objeto4Palabras.length < 4) {
-                    // Cambiar color y deshabilitar antes de enviar
-                    box.style.backgroundColor = 'darkgray'; // Cambiar a gris oscuro
-                    box.style.pointerEvents = 'none'; // Deshabilitar el clic
-                    objeto4Palabras.push(box.innerHTML); // Añadir palabra seleccionada
+                    // Seleccionar
+                    box.style.backgroundColor = 'darkgray';
+                    box.style.border = '2px solid gray';
+                    objeto4Palabras.push(box.innerHTML);
 
-                    // Si se seleccionaron 4 palabras, enviar al backend
-                    if (objeto4Palabras.length === 4 && !responseReceived) { // Verificar que no haya respuesta
-                        postDataVerificarData = [objeto4Palabras, vidas]; // Agrupar en un array
+                    if (objeto4Palabras.length === 4 && !responseReceived) {
+                        postDataVerificarData = [objeto4Palabras, vidas];
 
-                        // Verificar si las palabras seleccionadas son correctas
                         postData("verificarSeleccion", postDataVerificarData, (res) => {
-                            responseReceived = true; // Cambiar el estado a respuesta recibida
+                            responseReceived = true;
 
                             if (res.esCorrecta) {
-                                // Deshabilitar y cambiar a verde las palabras correctas
                                 objeto4Palabras.forEach(palabra => {
                                     let box = Array.from(document.querySelectorAll(".sixt")).find(el => el.innerHTML === palabra);
                                     if (box) {
-                                        box.style.backgroundColor = 'rgba(96, 132, 243, 0.5)'; 
-                                        box.style.pointerEvents = 'none';
+                                        box.style.backgroundColor = 'rgba(96, 132, 243, 0.5)';
                                         box.style.border = '2px solid blue';
-                                        box.style.Opacity = '0.5';
-                                        
+                                        box.style.opacity = '0.5';
+                                        box.style.pointerEvents = 'none';
                                     }
                                 });
 
-                                // Comprobar si todas las palabras han sido deshabilitadas
                                 if (todasLasPalabrasDeshabilitadas(document.querySelectorAll(".sixt"))) {
-                                    alert("¡Ganaste! Has seleccionado todas las palabras correctamente.");
-                                    // Enviar estadísticas de victoria
-                                    enviarEstadisticas(true); // Enviar que ganó
+                                    mostrarResultado(true);
+                                    enviarEstadisticas(true);
                                 }
+
+                                objeto4Palabras = [];
+                                responseReceived = false;
+
                             } else {
-                                // Si la respuesta es incorrecta, volver a habilitar las palabras
-                                objeto4Palabras.forEach(palabra => {
+                                let seleccionActual = [...objeto4Palabras];
+
+                                seleccionActual.forEach(palabra => {
                                     let box = Array.from(document.querySelectorAll(".sixt")).find(el => el.innerHTML === palabra);
                                     if (box) {
-                                        box.style.backgroundColor = ''; // Volver al color predeterminado
-                                        box.style.pointerEvents = 'auto'; // Habilitar el clic
+                                        box.style.backgroundColor = 'rgba(255, 0, 0, 0.5)';
+                                        box.style.border = '2px solid red';
                                     }
                                 });
-                                updateVidas(res.vidas); // Actualizar vidas si es incorrecta
-                            }
 
-                            // Reiniciar objeto4Palabras independientemente de si la respuesta fue correcta o incorrecta
-                            objeto4Palabras = []; // Reiniciar el array para la próxima ronda
-                            responseReceived = false; // Resetear el estado para la siguiente ronda
+                                setTimeout(() => {
+                                    seleccionActual.forEach(palabra => {
+                                        let box = Array.from(document.querySelectorAll(".sixt")).find(el => el.innerHTML === palabra);
+                                        if (box) {
+                                            box.style.backgroundColor = '';
+                                            box.style.border = '';
+                                        }
+                                    });
+                                    updateVidas(res.vidas);
+                                    objeto4Palabras = [];
+                                    responseReceived = false;
+                                }, 500);
+                            }
                         });
                     }
                 } else {
-                    alert("Ya se han seleccionado 4 palabras.");
+                    console.log("Ya se han seleccionado 4 palabras.");
                 }
             });
         });
 
-        // Actualizar el número de vidas inicialmente
         updateVidas();
     });
 });
 
-// Resto del código se mantiene igual
-
 // Función para enviar estadísticas al backend
 function enviarEstadisticas(gano) {
-    const user = localStorage.getItem("username")
+    const user = localStorage.getItem("username");
     if(user != undefined){
         const estadisticas = {
             username: user,
@@ -117,14 +135,11 @@ function enviarEstadisticas(gano) {
             console.log("Estadísticas enviadas:", response);
         });
     }
-    
 }
 
 // Función para comprobar si todas las palabras están deshabilitadas
 function todasLasPalabrasDeshabilitadas(sixt) {
-    return Array.from(sixt).every(six => {
-        return six.style.pointerEvents === 'none'; // Verificar si el clic está deshabilitado
-    });
+    return Array.from(sixt).every(six => six.style.pointerEvents === 'none');
 }
 
 // Función para actualizar la visualización de las vidas
@@ -136,33 +151,25 @@ function updateVidas(vidasCounter = vidas) {
     }
 
     let counter = Array.from(redondos).slice(0, vidas);
-
-    // Cambiar a rojo los puntos de vida restantes
-    counter.forEach(div => {
-        div.style.backgroundColor = 'red';
-    });
-
-    // Restaurar los puntos de vida que no se usan a blanco
+    counter.forEach(div => div.style.backgroundColor = 'red');
     redondos.forEach(div => {
-        if (!counter.includes(div)) {
-            div.style.backgroundColor = '#fff';
-        }
+        if (!counter.includes(div)) div.style.backgroundColor = '#fff';
     });
 
-    // Perder el juego cuando las vidas lleguen a 0
     if (vidas === 0) {
-        enviarEstadisticas(false); // Enviar que perdió
-        vidas = 5; // Reinicia vidas para el siguiente día
+        mostrarResultado(false);
+        enviarEstadisticas(false);
+        vidas = 5;
         updateVidas(vidas);
+        bloquearJuego();
     }
 }
 
-// Función para simular el bloqueo del juego por 24 horas
+// Función para bloquear el juego
 function bloquearJuego() {
     let sixt = document.querySelectorAll(".sixt");
     sixt.forEach(six => {
-        six.style.pointerEvents = 'none'; // Deshabilitar los clics
-        six.style.opacity = '0.5'; // Cambiar la apariencia visual
+        six.style.pointerEvents = 'none';
+        six.style.opacity = '0.5';
     });
-    alert("El juego está bloqueado por 24 horas.");
 }

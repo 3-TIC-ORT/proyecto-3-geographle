@@ -589,5 +589,169 @@
     "juego": "Connections",
     "gano": true,
     "vidasRestantes": 1
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": false,
+    "vidasRestantes": 0
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 4
+  },
+  {
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 2
+  },
+  {
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 2
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 4
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": false,
+    "vidasRestantes": 0
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": false,
+    "vidasRestantes": 0
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 5
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": false,
+    "vidasRestantes": 0
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": false,
+    "vidasRestantes": 0
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": false,
+    "vidasRestantes": 0
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": false,
+    "vidasRestantes": 0
+  },
+  {
+    "juego": "Connections",
+    "gano": false,
+    "vidasRestantes": 0
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": false,
+    "vidasRestantes": 0
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": false,
+    "vidasRestantes": 0
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 4
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 3
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 3
+  },
+  {
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 3
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": false,
+    "vidasRestantes": 0
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 5
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 3
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 5
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 4
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 4
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 4
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 3
+  },
+  {
+    "username": "TICEXP",
+    "juego": "Connections",
+    "gano": true,
+    "vidasRestantes": 2
   }
 ]

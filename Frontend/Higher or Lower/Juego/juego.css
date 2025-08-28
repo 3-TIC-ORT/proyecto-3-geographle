@@ -38,6 +38,23 @@ a{
     justify-content: space-around;
     flex-direction: column;
 }
+#gameMessage {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    z-index: 1000;
+    display: none;
+  }
+  #gameMessage.success { background-color: #4caf50; } /* verde */
+  #gameMessage.error { background-color: #f44336; }   /* rojo */
+  #gameMessage.tie { background-color: #ff9800; }     /* naranja */
+  
 
 .gameMenu {
     width: 75%;

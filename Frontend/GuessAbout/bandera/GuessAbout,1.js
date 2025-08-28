@@ -159,7 +159,7 @@ function handleLives(response) {
         
         // Redirige al menú y luego envía las estadísticas al perder el juego
         setTimeout(() => {
-            window.location.href = '/Frontend/Menu/';
+            window.location.href = '/Frontend/GuessAbout/';
             enviarEstadisticas(false);
         }, 2000); // Espera para mostrar el mensaje de "Game Over"
     }
@@ -314,7 +314,7 @@ function handleCapitalSelection(selectedCapital) {
             displayMessage("¡Your guess for capital is correct!", 'green');
             setTimeout(() => {
                 enviarEstadisticas(true); // Envía estadísticas si gana
-                window.location.href = '/Frontend/Menu/';
+                window.location.href = '/Fronten/GuessAbout/';
             }, 1500);
         } else {
             handleLives(response)

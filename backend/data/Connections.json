@@ -113,8 +113,6 @@
             "Santiago",
             "Valparaíso",
             "Pisco",
-            "Andes Mountains",
-            "Patagonia",
             "Chilean Sea Bass",
             "Vineyards",
             "Alexis Sanchez",
@@ -147,7 +145,6 @@
             "Coffee",
             "Cartagena",
             "Emeralds",
-            "Andes",
             "Barranquilla",
             "Falcao",
             "Bogotá",
@@ -226,7 +223,6 @@
             "Elephants"
         ]
     },
-  
     {
         "country_id": "ISR",
         "nombre_pais": "Israel",
@@ -293,7 +289,6 @@
             "Cancún",
             "Aztec",
             "Maya",
-            "Salsa",
             "Guacamole",
             "Day of the Dead",
             "Sombrero"
@@ -306,7 +301,6 @@
             "Amsterdam",
             "Tulips",
             "Windmills",
-            "Canals",
             "Cycling",
             "Van Gogh",
             "Cheese",
@@ -324,9 +318,7 @@
             "Ceviche",
             "Nazca Lines",
             "Cusco",
-            "Andes Mountains",
             "Lake Titicaca",
-            "Machu Picchu",
             "Pisco Sour",
             "Sacsayhuamán",
             "Huacachina"
@@ -389,9 +381,7 @@
         "words_related": [
             "Geneva",
             "Zurich",
-            "Alps",
             "Chocolate",
-            "Cheese",
             "Neutrality",
             "Matterhorn",
             "Swiss Watches",
@@ -414,7 +404,6 @@
             "Grand Bazaar",
             "Ankara",
             "Blue Mosque",
-            "Mediterranean Coast",
             "Topkapi Palace"
         ]
     },
@@ -427,7 +416,6 @@
             "Carpathians",
             "Black Sea",
             "Lviv",
-            "Borscht",
             "Holodomor",
             "Kiev Pechersk Lavra",
             "Odessa",
@@ -472,4 +460,4 @@
             "National Parks"
         ]
     }
-  ]
+]

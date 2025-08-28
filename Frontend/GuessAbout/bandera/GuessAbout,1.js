@@ -314,7 +314,7 @@ function handleCapitalSelection(selectedCapital) {
             displayMessage("¡Your guess for capital is correct!", 'green');
             setTimeout(() => {
                 enviarEstadisticas(true); // Envía estadísticas si gana
-                window.location.href = '/Fronten/GuessAbout/';
+                window.location.href = '/Frontend/GuessAbout/';
             }, 1500);
         } else {
             handleLives(response)
